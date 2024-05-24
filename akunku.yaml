@@ -1,0 +1,13 @@
+- name: Trojan-magisk-GO/WS
+  server: quiz.staging.vidio.com
+  port: 443
+  type: trojan
+  password: e67dff3f-d199-4b7d-aeec-2520daa837c6
+  network: ws
+  sni: singaporealrelstore14.myvall.biz.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: singaporealrelstore14.myvall.biz.id
