@@ -1,14 +1,14 @@
 proxies:
-- name: Trojan-magisk-GO/WS
+- name: Trojan-admin-GO/WS
   server: quiz.staging.vidio.com
   port: 443
   type: trojan
-  password: e67dff3f-d199-4b7d-aeec-2520daa837c6
+  password: 6728e364-d5ea-4617-a79a-0e19b4656949
   network: ws
-  sni: singaporealrelstore14.myvall.biz.id
+  sni: sgdo-alrel14.myvall.biz.id
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /trojan-ws
     headers:
-        Host: singaporealrelstore14.myvall.biz.id
+        Host: sgdo-alrel14.myvall.biz.id
