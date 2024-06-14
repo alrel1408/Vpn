@@ -1,14 +1,13 @@
-proxies:
-- name: Trojan-admin-GO/WS
+- name: Trojan-cfmroot-GO/WS
   server: quiz.staging.vidio.com
   port: 443
   type: trojan
-  password: 6728e364-d5ea-4617-a79a-0e19b4656949
+  password: 8fe4b5d1-ca31-4675-98cd-557f962aa6e0
   network: ws
-  sni: sgdo-alrel14.myvall.biz.id
+  sni: idvpnalrel14.myvall.biz.id
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /trojan-ws
     headers:
-        Host: sgdo-alrel14.myvall.biz.id
+        Host: idvpnalrel14.myvall.biz.id
