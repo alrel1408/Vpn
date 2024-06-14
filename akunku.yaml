@@ -1,3 +1,4 @@
+proxies:
 - name: Trojan-cfmroot-GO/WS
   server: quiz.staging.vidio.com
   port: 443
