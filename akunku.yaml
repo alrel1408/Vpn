@@ -1,9 +1,9 @@
 proxies:
-- name: Trojan-cfmroot-GO/WS
+- name: Trojan-anjg-GO/WS
   server: quiz.staging.vidio.com
   port: 443
   type: trojan
-  password: 8fe4b5d1-ca31-4675-98cd-557f962aa6e0
+  password: d9b97f30-dc67-4537-99ef-e11bbb649b8a
   network: ws
   sni: idvpnalrel14.myvall.biz.id
   skip-cert-verify: true
